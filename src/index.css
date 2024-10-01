@@ -1,0 +1,1170 @@
+/*-----------------------homepage----------------------- */
+
+.main-home {
+  background: linear-gradient(to bottom, #fffbf5, white);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-home > div > h1 {
+  letter-spacing: 10px;
+  font-size: 80px;
+  color: #995e1e;
+  font-weight: 300;
+  padding-top: 5vh;
+}
+.main-home > div > h3 {
+  color: #ee9420;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 2vh;
+}
+.main-home > .container > p {
+  margin: -2px;
+  font-weight: 400;
+  font-size: 23px;
+  letter-spacing: -1px;
+  line-height: 28px;
+}
+.main-home > .image {
+  text-align: left;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  background: #fffdf9;
+  height: 70vh;
+}
+.main-home > .image > .side-image {
+  z-index: 1;
+  left: 12%;
+  top: -4vh;
+}
+.main-home > .image > .main-image {
+  z-index: 2;
+  left: 17%;
+  border-radius: 40px;
+  width: 65%;
+  height: 70vh;
+}
+
+.main-home > .image-box > .row > .col-sm-12 {
+  background-image: url("../public/image/Property-1Daily-Prayers-1.png");
+  background-position: center;
+  background-size: cover;
+  height: 397px;
+  margin: 20px auto;
+  position: relative;
+  width: 340px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-home > .image-box > .row > .col-sm-12 > p {
+  background-color: #393838;
+  color: white;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1vh 2vw;
+}
+.main-home > .container-5 {
+  background: linear-gradient(to right, white, #f5eeea, white);
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0vw;
+  padding: 0;
+}
+.main-home > .container-5 .row > .h2 > h2 {
+  font-size: 70px;
+  text-align: left;
+  font-weight: 700;
+}
+.main-home > .container-6 {
+  text-align: center;
+  margin: 10vh auto;
+}
+.main-home > .container-6 > .row > .written > h1 {
+  font-size: 50px;
+  font-weight: 650;
+}
+.main-home > .container-6 > .row > .written > h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.main-home > .container-6 > .row > .written > p {
+  font-size: 25px;
+}
+.main-home > .container-6 > .row > .image > img {
+  height: 100%;
+  border-radius: 20px;
+  margin: 10vh auto;
+}
+.main-home > .container-7 {
+  min-height: 100vh;
+  padding: 0;
+}
+.main-home > .container-7 > .back-logo {
+  width: 20%;
+  left: 20%;
+  top: 50px;
+}
+.main-home > .container-7 > .full-image {
+  background-image: url(/src/assets/image/Rectangle-18313-1.png);
+  background-size: cover; /*  // Optional: Adjusts the size of the background image */
+  background-position: center; /*Optional: Adjusts the position of the background image*/
+  width: 100vw; /* Optional: Adjusts the width of the div*/
+  height: 107vh; /* Optional: Adjusts the height of the div*/
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+.main-home > .container-7 .write {
+  z-index: 10;
+  text-align: left;
+  bottom: 200px;
+  left: 20%;
+  color: white;
+}
+.main-home > .container-7 > .full-image > .write > h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+.main-home > .container-7 > .full-image > .write > h1 {
+  font-size: 65px;
+  color: white;
+}
+.main-home > .container-7 > .full-image > .write > p {
+  color: gray;
+}
+.main-home > .container-7 > .full-image > .write .white {
+  color: white;
+  padding-right: 10px;
+}
+.main-home > .container-7 > .full-image > .write .white:hover .fa-arrow-right {
+  padding-left: 10px;
+  color: #3899e6;
+  transition: 0.5s;
+}
+.main-home > .container-7 > .full-image > .write .white .fa-arrow-right {
+  color: #3899e6;
+}
+.main-home > .container-8 > h1 {
+  letter-spacing: 0;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 10vh;
+}
+.main-home > .container > .row > .image-col {
+  overflow: hidden;
+  margin: 2vh auto;
+  border-radius: 40px;
+  padding: 0;
+  position: relative;
+  height: 70vh;
+}
+
+.main-home > .container > .row > .image-col > h3 {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  margin: 0;
+}
+.main-home > .container > .row > .image-col > h3 > a {
+  color: white;
+}
+.main-home > .container > .row > .image-col > h3 > .fa-circle-arrow-right {
+  font-size: 18px;
+  padding-left: 5px;
+}
+/* .main-home
+  > .container
+  > .row
+  > .image-col
+  > h3
+  > a
+  :hover
+  .fa-circle-arrow-right {
+  padding-left: 10px;
+  color: #3899e6;
+  transition: 0.5s;
+} */
+.main-home > .container > .row > .image-col-2 {
+  height: 32vh;
+}
+.main-home > .container > .row > .image-col-3 {
+  height: 32vh;
+}
+.main-home > .container > .row > .image-col-4 {
+  margin-top: -36vh;
+}
+.main-home > .container > .row > .image-col-5 {
+  height: 55vh;
+}
+@media (max-width: 440px) {
+  .main-home {
+    background: linear-gradient(to bottom, #fffbf5, white);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .main-home > div > h1 {
+    font-size: 25px;
+    padding-top: 10vh;
+  }
+  .main-home > div > h3 {
+    letter-spacing: 2px;
+    font-size: 21px;
+    padding-bottom: 4vh;
+  }
+  .main-home > .container > p {
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 23px;
+  }
+  .main-home > .image {
+    text-align: left;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    height: 25vh;
+  }
+  .main-home > .image > .side-image {
+    left: -50px;
+    height: 20vh;
+  }
+  .main-home > .image > .main-image {
+    height: 25vh;
+    left: 10%;
+    border-radius: 20px;
+    width: 80%;
+  }
+  .main-home > .image-box > .row > .col-sm-12 {
+    width: 90%;
+  }
+  .main-home > .container-5 {
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0vw;
+    padding: 0;
+  }
+  .main-home > .container-5 .row > .h2 > h2 {
+    font-size: 65px;
+    font-size: 500;
+    letter-spacing: -2px;
+    /* line-height: 60px; */
+  }
+  .main-home > .container-6 {
+    margin: 15vh auto;
+  }
+  .main-home > .container-6 > .row > .written > h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .main-home > .container-6 > .row > .written > h3 {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -2px;
+  }
+  .main-home > .container-6 > .row > .written > p {
+    font-size: 35px;
+    font-weight: 500 !important;
+    line-height: 50px;
+    margin: 0;
+    letter-spacing: -1px;
+  }
+  .main-home > .container-6 > .row > .image > img {
+    height: 100%;
+    border-radius: 20px;
+    margin: 5vh auto;
+  }
+  .main-home > .container-7 {
+    padding: 0;
+    min-height: 70vh;
+  }
+  .main-home > .container-7 > .back-logo {
+    width: 40%;
+    left: 5%;
+  }
+  .main-home > .container-7 > .full-image {
+    background-size: cover; /*  // Optional: Adjusts the size of the background image */
+    background-position: center; /*Optional: Adjusts the position of the background image*/
+    width: 100vw; /* Optional: Adjusts the width of the div*/
+    height: 75vh; /* Optional: Adjusts the height of the div*/
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+  }
+  .main-home > .container-7 .write {
+    z-index: 10;
+    text-align: left;
+    bottom: 12vh;
+    left: 5%;
+    color: white;
+  }
+  .main-home > .container-7 > .full-image > .write > h2 {
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    line-height: 20px;
+    letter-spacing: -1px;
+  }
+  .main-home > .container-7 > .full-image > .write > h1 {
+    font-size: 60px;
+    color: white;
+    letter-spacing: -2px;
+  }
+  .main-home > .container-7 > .full-image > .write > p {
+    color: gray;
+    font-size: 15px;
+    line-height: 8px;
+  }
+  .main-home > .container-7 > .full-image > .write .white {
+    color: white;
+    padding-right: 10px;
+  }
+  /* .main-home > .container-7 .write>h2{
+}
+.main-home > .container-7 .write>h1{
+}
+.main-home > .container-7 .write>p{
+}*/
+  .main-home > .container-8 > h1 {
+    letter-spacing: -1px;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 1vh 1vw;
+  }
+  .main-home > .container-8 > .row > .image-col {
+    overflow: hidden;
+    margin: 2vh auto;
+    border-radius: 40px;
+    padding: 0;
+    position: relative;
+    width: 95%;
+  }
+  .main-home > .container-8 > .row > .image-col > h3 {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 25px;
+  }
+  .main-home > .container > .row > .image-col-2 {
+    height: 32vh;
+  }
+  .main-home > .container > .row > .image-col-3 {
+    height: 32vh;
+  }
+  .main-home > .container > .row > .image-col-5 {
+    height: 55vh;
+  }
+}
+/* ---------------------About-US style---------------------*/
+.aboutUs > .container-1 {
+  margin-top: 13vh;
+}
+.aboutUs > .container-1 > h1 {
+  letter-spacing: -2px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.aboutUs > .container-2 {
+  margin-top: 6vh;
+  text-align: center;
+}
+.aboutUs > .container-2 > h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.aboutUs > .container-3 > .row > .col-lg-2 {
+  margin: 1vh auto;
+}
+.aboutUs > .container-3 > .row > .col-lg-2 > h3 {
+  font-size: 21px;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+}
+.aboutUs > .container-3 > .row > .col-lg-2 > p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.aboutUs > .container-4 {
+  margin: 4vh auto;
+}
+.aboutUs > .container-4 > h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.aboutUs > .container-4 > p {
+  font-size: 20px;
+  margin: 2vh 0vw;
+}
+.aboutUs > .container-4 > img {
+  border-radius: 60px;
+}
+.container-5 > ol > li {
+  font-size: 20px;
+}
+.container-5 > h3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 3vh;
+}
+.container-5 > h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  margin: 1vh auto;
+}
+.container-5 > p {
+  font-size: 22px;
+  margin: 4vh 0vw;
+}
+.container-5 > .row > .col-lg-6 {
+  margin: 1vh 0vw;
+}
+.container-5 > .row > .col-lg-6 > h3 {
+  font-size: 25px;
+  font-size: 700;
+}
+.container-5 > .row > .col-lg-6 > p {
+  font-size: 20px;
+}
+.container-6 > h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container-6 > p {
+  font-size: 23px;
+  margin: 1vh 0vw;
+  color: rgba(41, 40, 40, 0.904);
+}
+.container-6 > h4 {
+  font-size: 30px;
+  margin-bottom: 6vh;
+}
+@media (max-width: 440px) {
+  .aboutUs > .container {
+    margin: 10vh auto;
+  }
+  .aboutUs > .container > h1 {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+  }
+  .aboutUs > .container-2 {
+    margin: 1vh auto;
+    text-align: center;
+  }
+  .aboutUs > .container-2 > h1 {
+    font-size: 45px !important;
+    font-weight: 600 !important;
+  }
+  .aboutUs > .container-3 {
+    margin: 0;
+  }
+  .aboutUs > .container-3 > .row h3 {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    margin: 0px auto;
+  }
+  .aboutUs > .container-3 > .row p {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  .aboutUs > .container-3 > .row img {
+    width: 70vw;
+    margin-bottom: 40px;
+  }
+  .aboutUs > .container-4 {
+    margin: 40px 0px;
+  }
+  .aboutUs > .container-4 > h2 {
+    margin-top: 20px;
+  }
+  .aboutUs > .container-4 > p {
+    font-size: 19px;
+  }
+  .aboutUs > .container-4 > img {
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .container-5 {
+    margin: 0;
+    padding: 0;
+  }
+  .container-5 > ol {
+    width: 95%;
+    margin: auto;
+  }
+  .container-5 > h3 {
+    font-size: 20px;
+    font-weight: 600 !important;
+  }
+  .container-5 > h1 {
+    font-size: 30px !important;
+  }
+  .container-5 p {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+  }
+  .container-5 h3 {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .container-6 h2 {
+    width: 95%;
+    margin: auto;
+  }
+  .container-6 p {
+    font-size: 22px;
+    margin: auto;
+    width: 95%;
+  }
+  .container-6 h4 {
+    width: 95%;
+    margin: auto;
+    font-size: 25px;
+  }
+}
+
+/* ---------------------sundayprayer style---------------------*/
+
+.sundayprayer > h1 {
+  font-size: 45px;
+  margin: 1vh 1vw;
+}
+.sundayprayer > .container {
+  width: 95%;
+}
+.sundayprayer > h2 {
+  font-size: 22px;
+  margin-top: 5vh;
+  padding: 1vh 0vw;
+}
+.sundayprayer > p {
+  font-size: 21px;
+}
+
+/* ---------------------thursdayparyer style--------------------- */
+
+.thursdayparyer > h1 {
+  font-size: 45px;
+  margin: 1vh 1vw;
+}
+.thursdayparyer > .container {
+  width: 95%;
+}
+.thursdayparyer > h2 {
+  font-size: 22px;
+  margin-top: 5vh;
+  padding: 1vh 0vw;
+}
+.thursdayparyer > p {
+  font-size: 21px;
+}
+
+/* ---------------------ladiesmeeting style--------------------- */
+
+.ladiesmeeting > h1 {
+  font-size: 45px;
+  margin: 1vh 1vw;
+}
+.ladiesmeeting > .container {
+  width: 95%;
+}
+.ladiesmeeting > h2 {
+  font-size: 22px;
+  margin-top: 5vh;
+  padding: 1vh 0vw;
+}
+.ladiesmeeting > p {
+  font-size: 21px;
+}
+
+/* ---------------------weddingCounselling style--------------------- */
+
+.weddingCounselling {
+  margin: 10vh auto;
+}
+.weddingCounselling > h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.weddingCounselling > .row {
+  margin: 5vh auto;
+  padding: 3vh 0vw;
+}
+.weddingCounselling > .row > .col-md-10 {
+  margin: 1vh auto;
+}
+.weddingCounselling img {
+  border-radius: 50px;
+}
+.weddingCounselling h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 0vh;
+}
+.weddingCounselling p {
+  font-size: 22px;
+  font-weight: 300;
+}
+@media (max-width: 928px) {
+  .weddingCounselling {
+    text-align: center;
+  }
+}
+
+/*--------------------- KID’S MINISTRY style ---------------------*/
+
+.KidsMinistry {
+  margin: 10vh auto;
+}
+.KidsMinistry > h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.KidsMinistry > .row {
+  margin: 5vh auto;
+  padding: 3vh 0vw;
+}
+.KidsMinistry > .row > .col-sm-10 {
+  margin: 1vh auto;
+}
+
+.KidsMinistry img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 50vh;
+}
+.KidsMinistry > .row h2 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 0vh;
+}
+.KidsMinistry > .row p {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 4vh auto;
+}
+@media (max-width: 928px) {
+  .KidsMinistry {
+    text-align: center;
+  }
+  .KidsMinistry > .row h2 {
+    margin-top: 10vh;
+  }
+}
+
+/*--------------------- MEN’S MINISTRY style ---------------------*/
+
+.MensMinistry {
+  margin: 10vh auto;
+}
+.MensMinistry > h1 {
+  font-size: 50px;
+}
+.MensMinistry > .row {
+  margin: 5vh auto;
+}
+.MensMinistry > .row > .col-sm-10 {
+  margin: 2vh auto;
+}
+.MensMinistry > .row > .col-sm-10 > img {
+  border-radius: 50px;
+}
+.MensMinistry > .row > .col-sm-10 > p {
+  font-size: 20px;
+  font-weight: 300;
+}
+@media (max-width: 928px) {
+  .MensMinistry {
+    text-align: center;
+  }
+}
+
+/*--------------------- MUSIC MINISTRY style ---------------------*/
+
+.musicMinistry {
+  margin: 10vh auto;
+}
+.musicMinistry > h1 {
+  font-size: 50px;
+}
+.musicMinistry > .row {
+  margin: 5vh auto;
+}
+.musicMinistry > .row img {
+  border-radius: 60px;
+  margin: 3vh auto;
+}
+.musicMinistry > .row p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.musicMinistry > .row iframe {
+  width: 100%;
+  height: 50vh;
+  margin: 2vh auto;
+}
+@media (max-width: 928px) {
+  .musicMinistry {
+    text-align: center;
+  }
+}
+
+/*--------------------- YOUTH MINISTRY style ---------------------*/
+
+.YouthMinistry {
+  margin: 10vh auto;
+}
+.YouthMinistry > h1 {
+  font-size: 50px;
+}
+.YouthMinistry > .row {
+  margin: 5vh auto;
+}
+.YouthMinistry > .row img {
+  border-radius: 50px;
+}
+.YouthMinistry > .row p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+@media (max-width: 928px) {
+  .YouthMinistry {
+    text-align: center;
+  }
+}
+
+/*--------------------- PRAYER GROUP style ---------------------*/
+
+.PrayerGroup {
+  margin: 10vh auto;
+}
+.PrayerGroup > h1 {
+  font-size: 50px;
+}
+.PrayerGroup > .row {
+  margin: 5vh auto;
+}
+.PrayerGroup > .row img {
+  border-radius: 50px;
+}
+.PrayerGroup > .row p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+@media (max-width: 928px) {
+  .PrayerGroup {
+    text-align: center;
+  }
+}
+
+/*--------------------- TEACHING style ---------------------*/
+
+.Teaching {
+  margin: 10vh auto;
+}
+.Teaching > h1 {
+  font-size: 50px;
+}
+.Teaching > .row {
+  margin: 5vh auto;
+}
+.Teaching > .row img {
+  border-radius: 50px;
+}
+.Teaching > .row p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+@media (max-width: 928px) {
+  .Teaching {
+    text-align: center;
+  }
+}
+
+/*--------------------- Resources style ---------------------*/
+
+.Resources {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.Resources > h1 {
+  color: #8f6325;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+/*--------------------- OUTREACH style ---------------------*/
+
+.Outreach {
+  margin: 10vh auto;
+}
+.Outreach > h1 {
+  font-size: 50px;
+}
+.Outreach > .row {
+  margin: 5vh auto;
+}
+.Outreach > .row img {
+  border-radius: 50px;
+}
+.Outreach > .row p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+@media (max-width: 928px) {
+  .Outreach {
+    text-align: center;
+  }
+}
+/*--------------------- pastors style ---------------------*/
+.pastors {
+  margin: 15vh auto;
+}
+.pastors h1 {
+  font-size: 46px;
+  font-size: 800 !important;
+  letter-spacing: -3px;
+}
+.pastors h3 {
+  font-weight: 400;
+  font-size: 28px;
+}
+.pastors h1 > i {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.pastors p {
+  font-size: 17px;
+  color: #393838;
+}
+.pastors > .row >.image-1>img {
+  width: 100%;
+  border-radius: 50px;
+  margin: 2vh auto;
+}
+.pastors > .row >.image-2{
+  background-color:#8F6325;
+  position:relative;
+  height:500px;
+}
+.pastors > .row >.image-2>img{
+  position:absolute;
+  top:20px;
+  left:20px; 
+  width: 100%;
+}
+.pastors > .row p {
+  font-size: 22px;
+  margin: 2vh 0;
+  letter-spacing: -1px;
+}
+.pastors >.last>h3{
+  font-size: 32px;
+  letter-spacing: -2px;
+  font-weight: 400;
+}
+.pastors >.last>h1>i{
+line-height: 25px;
+font-weight: 700;
+}
+.pastors >.last>.row img{
+  width: 100%;
+}
+.pastors >.last>.row p{
+  font-size: 22px;
+  margin: 1vh 0;
+  letter-spacing: -1px;
+}
+@media (max-width:440px) {
+  .pastors {
+    margin: 5vh auto;
+  }
+  .pastors h1 {
+    font-size: 40px;
+    font-size: 800 !important;
+    letter-spacing: -3px;
+  }
+  .pastors h3 {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .pastors h1 > i {
+    font-size: 40px;
+    font-weight: 700;
+   
+  }
+  .pastors p {
+    font-size: 15px;  
+    word-spacing: 2vw;
+  }
+  .pastors > .row >.image-1>img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 1vh auto;
+  }
+  .pastors > .row >.image-2{
+    background-color:#8F6325;
+    position:relative;
+    height:335px;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .pastors > .row >.image-2>img{
+    position:absolute;
+    bottom: -10px;
+    right: 0px; 
+    width: 100%;
+  }
+  .pastors > .row p {
+    font-size: 22px;
+    margin: 2vh 0;
+    letter-spacing: -1px;
+    word-spacing: 2vw;
+
+  }
+ 
+  .pastors >.last>h3{
+    margin-top: 10vh;
+    font-size: 28px;
+    letter-spacing: -2px;
+    font-weight: 400;
+  }
+  .pastors >.last>h1>i{
+ font-size: 24px;
+ letter-spacing: -1px;
+  font-weight: 700;
+  }
+  .pastors >.last>.row img{
+    width: 100%;
+  }
+  .pastors >.last>.row p{
+    font-size: 22px;
+    margin: 1vh 0;
+    letter-spacing: -1px;
+  }
+}
+/*--------------------- Sermons style ---------------------*/
+.sermons{
+  margin-top: 10vh;
+}
+.sermons>h1{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin: 0px;
+}
+.sermons>.row .col-lg-6{
+  height: 330px;
+  overflow: scroll;
+}
+.sermons>.row .col-lg-6>.d-flex{
+  margin: 1vh 0.5vw;
+}
+
+/*--------------------- Event style ---------------------*/
+.event{
+  margin-top: 10vh;
+}
+.event>h1{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin: 0;
+}
+.event>.row{
+  margin-top: 7vh;
+}
+.event>.row>.col-lg-6, .col-lg-4{
+  margin: 6vh auto;
+}
+.event>.row h1{
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+.event>.row p{
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+@media (max-width:990px) {
+  .event{
+    margin-top: 5vh;
+  }
+  .event>h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 0;
+    text-align: center;
+  }
+  .event>.row{
+    margin-top: 1vh;
+  }
+  .event>.row>.col-lg-6{
+    margin: 3vh auto;
+  }
+  .event>.row h1{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    /* text-align: center; */
+  }
+  .event>.row p{
+    font-size: 20px;
+    letter-spacing: -1px;
+    /* text-align: center; */
+  }
+  .event>.row>.image{
+display: flex;
+justify-content: center;
+  }
+}
+@media (max-width:440px) {
+  .event{
+    margin-top: 5vh;
+  }
+  .event>h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .event>.row h1{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    /* text-align: center; */
+  }
+  .event>.row p{
+    font-size: 18px;
+    letter-spacing: -1px;
+    /* text-align: center; */
+  }
+ 
+}
+
+/*--------------------- Blogs style ---------------------*/
+.Blog{
+  margin-top: 10vh;
+}
+.Blog>h1{
+  font-size: 32px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #F7A400;
+  margin: 5vh auto;
+}
+.Blog>h1>span{
+  color:#494949;
+  font-weight: 700;
+}
+.Blog>.row{
+  /* margin: 5vh vw; */
+  gap: 2vh 2vw;
+}
+.Blog>.row>.col-lg-3{
+padding:2vh 1vw;
+  border: 0.5px solid gray;
+  margin: 2vh 0vw;
+  width: 30%;
+  height: 100%;
+}
+.Blog>.row>.col-lg-3>a>h3{
+  font-size: 20px;
+  color: black;
+  letter-spacing: -1px;
+  margin: 1VH 0VW;
+}
+.Blog>.row>.col-lg-3>P{
+  font-size: 15PX;
+  color: #494949;
+}
+.Blog>.row>.col-lg-3>span{
+  color: #494949;
+  font-size: 14px;
+  margin: 0vh 5px;
+ 
+}
+.Blog>.row>.col-lg-3>span>i{
+  margin:0vh 3px;
+}
+.Blog>.row>.col-lg-3>span>a{
+  color: #3899e6;
+}
+.Blog>.row>.col-lg-3>a>h3:hover{
+  color: #3899E7;
+
+}
+.Blog button {
+  font-size: 10px !important;
+  margin: 2.5vh 5px 0vh 5px;
+  border: 1px solid #494949;
+  background-color: white;
+}
+.Blog button:hover{
+  background-color: #F2F2F2;
+}
+.Blog button a{
+  color: #494949;
+}
+
+/*--------------------- Gallery style ---------------------*/
+.Gallery{
+  margin-top: 10vh;
+}
+.Gallery>h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -2px;
+}
+.Gallery>.row>.col-lg-3{
+  margin: 1vh auto;
+  height: 200px;
+}
+/*--------------------- Shop style ---------------------*/
+
+.Shop{
+  margin: 5vh auto ;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Shop>h1{
+  color: #8F6325;
+  letter-spacing: -2px;
+}
+
+
+
+
+
